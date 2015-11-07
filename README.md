@@ -2,7 +2,12 @@ Noel Capule
 Perl Script
 Command to execute: ./exercise data.txt
 
-- Based on the data.txt, there are 3 data centers (dc=I, dc=S, and dc=A) which monitors the value of each request. It seems to me that an average value is at least greater than zero and the negative values are the unexpected values that needs to be flagged within the code. 
+Files:
+1) exercise - executable code
+2) data.txt - data information
+3) workbook.xlsx - excel file to represent visual information
+
+- Based on the data.txt, there are 3 data centers (dc=I, dc=S, and dc=A) which monitors the value of each request. It seems to me that an average value is at least greater than zero and the negative values are the unexpected values that needs to be flagged within the code. Although I have noticed a some gradual changes on data centers, I feel that this is the normal behavior given with a genaral instruction and a limited information.
 
 - The output below captured all the negative values along with the associated Data Center and time.
 
