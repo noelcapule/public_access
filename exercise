@@ -1,0 +1,10 @@
+#!/usr/bin/perl
+
+print "Type		Time		Value		Data Center\n";
+print "------------------------------------------------------------\n";
+while ( <> ) {
+	($rtb, $time, $value, $dc) = split;
+	if ($value < 0) {
+		print "$rtb 	$time	$value	$dc\n";
+	}
+}
